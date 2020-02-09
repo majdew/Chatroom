@@ -10,12 +10,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width : 100%;
+    height: 90vh;
+    padding: 0px 10px;
+    border: 1px solid grey;
 }
+
 .message-area {
     width : 100%;
-    height: 75vh;
-    border: 1px solid grey;
-    padding: 10px;
+    height: 90%;
+}
+
+#feedback{
+    height: 10% ;
 }
 
 .control-area {
