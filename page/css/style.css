@@ -19,10 +19,11 @@ body {
           justify-content: space-between;
 }
 
-.massege-area {
+.message-area {
   width: 100%;
   height: 75vh;
   border: 1px solid grey;
+  padding: 10px;
 }
 
 .control-area {
@@ -49,5 +50,12 @@ input {
   min-height: 30px;
   cursor: pointer;
   margin: 2px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  color: gray;
 }
 /*# sourceMappingURL=style.css.map */
